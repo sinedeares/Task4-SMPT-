@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "mailSendingSMTP/1.0.0": {
+        "runtime": {
+          "mailSendingSMTP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "mailSendingSMTP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

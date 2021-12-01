@@ -1,0 +1,16 @@
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\bin\Debug\net5.0\mailSendingSMTP.exe
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\bin\Debug\net5.0\mailSendingSMTP.deps.json
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\bin\Debug\net5.0\mailSendingSMTP.runtimeconfig.json
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\bin\Debug\net5.0\mailSendingSMTP.runtimeconfig.dev.json
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\bin\Debug\net5.0\mailSendingSMTP.dll
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\bin\Debug\net5.0\ref\mailSendingSMTP.dll
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\bin\Debug\net5.0\mailSendingSMTP.pdb
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\obj\Debug\net5.0\mailSendingSMTP.csprojAssemblyReference.cache
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\obj\Debug\net5.0\mailSendingSMTP.GeneratedMSBuildEditorConfig.editorconfig
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\obj\Debug\net5.0\mailSendingSMTP.AssemblyInfoInputs.cache
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\obj\Debug\net5.0\mailSendingSMTP.AssemblyInfo.cs
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\obj\Debug\net5.0\mailSendingSMTP.csproj.CoreCompileInputs.cache
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\obj\Debug\net5.0\mailSendingSMTP.dll
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\obj\Debug\net5.0\ref\mailSendingSMTP.dll
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\obj\Debug\net5.0\mailSendingSMTP.pdb
+E:\csharpprojects\mailSendingSMTP\mailSendingSMTP\obj\Debug\net5.0\mailSendingSMTP.genruntimeconfig.cache
