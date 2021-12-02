@@ -14,15 +14,34 @@ namespace mailSendingSMTP
         static void Main(string[] args)
         {
             SmtpClient smtp = new SmtpClient("smtp.mail.ru", 2525); //для mail порт 2525, для яндекса 25, для гугла 465 (желательно) или 587
-            smtp.Credentials = new NetworkCredential("*********@mail.ru", "*******************"); //аутентификационные данные отправителя 
-            MailAddress from = new MailAddress("*********@mail.ru", "Кто-нибудь"); //От кого (Почта, имя)
-            MailAddress to = new MailAddress("*****@mail.ru"); //Кому
+            Console.WriteLine("Введите логин от почты (сам адрес): ");
+            string login = Console.ReadLine();
+            Console.WriteLine("Введите пароль от почты: ");
+            string password = Console.ReadLine();
+            smtp.Credentials = new NetworkCredential(login, password); //аутентификационные данные отправителя 
+            Console.WriteLine("Введите имя отправителя: ");
+            string userName = Console.ReadLine();
+            MailAddress from = new MailAddress(login, userName); //От кого (Почта, имя)
+            Console.WriteLine("Введите почту получателя: ");
+            string receiverMail = Console.ReadLine();
+            MailAddress to = new MailAddress(receiverMail); //Кому
             MailMessage message = new MailMessage(from, to);
-            message.Attachments.Add(new Attachment("C:\\cat.jpg")); //Вложение
-            message.Subject = "Тест"; //Тема письма
-            message.Body = "Тест прошёл"; //Текст письма
+            Console.WriteLine("Введите расположение файла (в формате C:\\...\\Имя_файла.разрешение: ");
+            string attachment = Console.ReadLine();
+            message.Attachments.Add(new Attachment(attachment)); //Вложение
+            Console.WriteLine("Введите тему письма: ");
+            string mailTheme = Console.ReadLine();
+            message.Subject = mailTheme; //Тема письма
+            Console.WriteLine("Введите содержание письма: ");
+            string mailText = Console.ReadLine();
+            message.Body = mailText; //Текст письма
             smtp.EnableSsl = true; //Отправка по протоколу SSL или нет
-            smtp.Send(message);
+            char letter = 'y';
+            Console.WriteLine("Отправить письмо? y/n: ");
+            if (letter == 'y')
+            {
+                smtp.Send(message);
+            }
             Console.Read();
         }
 
